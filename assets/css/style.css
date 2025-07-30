@@ -91,8 +91,18 @@ html {
     padding: 20px;
 }
 .big_words {
-    font-size: 4rem;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: white;
 }
+
+.small_words {
+  font-size: 1.5rem;
+  font-weight: normal;
+  color: white;
+}
+
 .home_banner_inner h1 {
     font-size: 3rem;
     color: #fff;
@@ -103,9 +113,7 @@ html {
     letter-spacing: 2px;
     text-transform: uppercase;
 }
-.small_words {
-    font-size: 2rem;
-}
+
 .home_banner_inner h1 span{
     font-family: nexa-black;
     font-weight: bold;
@@ -115,6 +123,53 @@ html {
     vertical-align: middle;
     margin-top: -27px;
 }
+.about_us_row {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.home_about_2 img {
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.home_about_text {
+  max-width: 600px;
+  color: white;
+}
+
+.home_about_text h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.home_about_text h4 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.home_about_text p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .about_us_row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .home_about_2 img {
+    max-width: 100%;
+  }
+
+  .home_about_text {
+    max-width: 100%;
+  }
+}
+
 .home_about {
     padding: 50px 10px;
     background-color: #000;
