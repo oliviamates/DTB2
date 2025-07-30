@@ -279,7 +279,13 @@ html {
     max-width: 210px;
     width: 100%;
 }
-.home_trial_img_row p, li {
+.home_trial_img_row p{
+    color: #6F6F6F;
+    max-width: 210px;
+    width: 100%;
+    line-height: 1.7;
+}
+.home_trial_img_row ul, li{
     color: #6F6F6F;
     max-width: 210px;
     width: 100%;
