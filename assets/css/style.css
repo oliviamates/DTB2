@@ -90,6 +90,9 @@ html {
     bottom: 0px;
     padding: 20px;
 }
+.big_words {
+    font-size: 4rem;
+}
 .home_banner_inner h1 {
     font-size: 3rem;
     color: #fff;
