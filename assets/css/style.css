@@ -141,18 +141,18 @@ html {
   color: white;
 }
 
-.home_about_text h2 {
+#about_big {
   font-size: 35px;
   color: #6F6F6F;
   margin-bottom: 1rem;
 }
-.home_about_text h4 {
+#about_medium {
   font-size: 25px;
   color: #6F6F6F;
   margin-bottom: 1rem;
 }
 
-.home_about_text p {
+#about_small{
   font-size: 20px;
   color: #6F6F6F;
   line-height: 1.6;
