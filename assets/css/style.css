@@ -91,14 +91,14 @@ html {
     padding: 20px;
 }
 .big_words {
-  font-size: 3rem;
+  font-size: 60%;
   font-weight: bold;
   margin-bottom: 0.5rem;
   color: white;
 }
 
 .small_words {
-  font-size: 1.5rem;
+  font-size: 40%;
   font-weight: normal;
   color: white;
 }
@@ -142,18 +142,18 @@ html {
 }
 
 .home_about_text h2 {
-  font-size: 3rem;
+  font-size: 35px;
   color: #6F6F6F;
   margin-bottom: 1rem;
 }
 .home_about_text h4 {
-  font-size: 1.5rem;
+  font-size: 25px;
   color: #6F6F6F;
   margin-bottom: 1rem;
 }
 
 .home_about_text p {
-  font-size: 1rem;
+  font-size: 20px;
   color: #6F6F6F;
   line-height: 1.6;
 }
