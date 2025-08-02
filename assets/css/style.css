@@ -1550,9 +1550,10 @@ img.check_box_close {
     display: block;
     margin: 0 auto;
   }
+  
 
   #money_list li {
-    font-size: 13px;
+    font-size: 10px;
     padding-right: 0px;
     margin-right: 0px;
 
@@ -1560,6 +1561,7 @@ img.check_box_close {
   #money_list {
     padding-right: 0px;
     margin-right: 0px;
+    max-width: 50px;
 
   }
 }
