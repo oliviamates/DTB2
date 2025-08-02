@@ -1550,4 +1550,14 @@ img.check_box_close {
     display: block;
     margin: 0 auto;
   }
+
+  #membership {
+    font-size: 13px;
+
+  }
+  #money_list {
+    padding-right: 0px;
+    margin-right: 0px;
+    
+  }
 }
