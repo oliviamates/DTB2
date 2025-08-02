@@ -181,19 +181,6 @@ html {
     padding: 50px 10px;
     background-color: #000;
 }
-@media (max-width: 768px) {
-    .home_about {
-        flex-direction: column;
-        padding: 0px;
-        margin:0px
-    }
-
-    .home_about img {
-        width: 100%;
-        max-width: 300px;
-    }
-}
-
 .home_about_inner {
     display: flex;
     align-items: center;
@@ -1531,4 +1518,36 @@ img.check_box_close {
     .contact_time br {
         display: block !important;
     }
+}
+
+@media (max-width: 768px) {
+  .home_about {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .home_about img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  #membership_row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #membership_column_1 {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  #membership_column_1 img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
 }
