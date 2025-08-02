@@ -1564,4 +1564,7 @@ img.check_box_close {
     max-width: 50px;
 
   }
+  #membership {
+    font-size: 10px;
+  }
 }
