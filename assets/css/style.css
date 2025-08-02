@@ -184,6 +184,8 @@ html {
 @media (max-width: 768px) {
     .home_about {
         flex-direction: column;
+        padding: 0px;
+        margin:0px
     }
 
     .home_about img {
