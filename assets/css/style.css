@@ -178,8 +178,16 @@ html {
 }
 
 .home_about {
-    padding: 50px 10px;
     background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 50px 20px;
+    text-align: center;
+}
+
 }
 .home_about_inner {
     display: flex;
