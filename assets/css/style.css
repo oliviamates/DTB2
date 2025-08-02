@@ -1551,13 +1551,15 @@ img.check_box_close {
     margin: 0 auto;
   }
 
-  #membership {
+  #money_list li {
     font-size: 13px;
+    padding-right: 0px;
+    margin-right: 0px;
 
   }
   #money_list {
     padding-right: 0px;
     margin-right: 0px;
-    
+
   }
 }
