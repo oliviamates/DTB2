@@ -1520,7 +1520,7 @@ img.check_box_close {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 860px) {
   .home_about {
     flex-direction: column;
     text-align: center;
