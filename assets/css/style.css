@@ -1575,5 +1575,13 @@ img.check_box_close {
   .trial_row_img img {
     margin: 0%; 
   }
+  .trial_row_img {
+    margin: 0%; 
+  }
+
 }
 
+.trial_row_img {
+    margin-left: 10%; 
+    margin-right: 10%;
+  }
