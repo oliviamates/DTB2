@@ -1568,7 +1568,12 @@ img.check_box_close {
 }
 
 @media only screen and (max-width: 600px) {
-  .money_list li {
+  body {
+    background-color: yellow;
+  }
+
+  .membership-list li {
     font-size: 10px !important;
   }
 }
+
