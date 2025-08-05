@@ -1572,5 +1572,8 @@ img.check_box_close {
   .money_list li {
     font-size: 10px !important;
   }
+  .trial_row_img{
+    margin: 0%; 
+  }
 }
 
