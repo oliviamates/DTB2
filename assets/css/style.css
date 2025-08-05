@@ -1552,13 +1552,13 @@ img.check_box_close {
   }
   
 
-  #money_list li {
+  .money_list li {
     font-size: 10px;
     padding-right: 0px;
     margin-right: 0px;
 
   }
-  #money_list {
+  .money_list {
     padding-right: 0px;
     margin-right: 0px;
     max-width: 50px;
@@ -1568,11 +1568,8 @@ img.check_box_close {
 }
 
 @media only screen and (max-width: 600px) {
-  body {
-    background-color: yellow;
-  }
 
-  .membership-list li {
+  .money_list li {
     font-size: 10px !important;
   }
 }
