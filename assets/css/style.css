@@ -1564,7 +1564,11 @@ img.check_box_close {
     max-width: 50px;
 
   }
-  #membership {
-    font-size: 10px;
+  
+}
+
+@media only screen and (max-width: 600px) {
+  .money_list li {
+    font-size: 10px !important;
   }
 }
