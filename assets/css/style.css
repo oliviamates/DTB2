@@ -696,6 +696,10 @@ a.insta {
     z-index: 99;
     flex-direction: column;
 }
+#trial-1 {
+    margin-left: 10%; 
+    margin-right: 10%;
+  }
 .about_banner_inner h1, .contact_banner_inner h1 {
     font-size: 112px;
     color: #fff;
@@ -1573,15 +1577,12 @@ img.check_box_close {
     font-size: 10px !important;
   }
   #trial-1 img {
-    margin: 0%; 
+    margin-left: 0%; 
+    margin-right: 15px;
   }
   #trial-1 {
-    margin: 0%; 
+    margin-left: 0%; 
+    margin-right: 15px;
   }
 
 }
-
-#trial-1 {
-    margin-left: 10%; 
-    margin-right: 10%;
-  }
